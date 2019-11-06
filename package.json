@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-planes",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Eslint config for use across all Planes projects",
   "author": "Henry <henry@planes.studio>",
   "license": "MIT",
