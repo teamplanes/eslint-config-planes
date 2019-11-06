@@ -1,12 +1,12 @@
 {
   "name": "eslint-config-planes",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Eslint config for use across all Planes projects",
   "author": "Henry <henry@planes.studio>",
   "license": "MIT",
   "main": "react.js",
   "peerDependencies": {
-    "eslint": "^6.1.0"
+    "eslint": "^6.6.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.0",
