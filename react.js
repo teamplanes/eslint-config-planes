@@ -16,6 +16,7 @@ module.exports = {
     }
   },
   "rules": {
+    "react/jsx-props-no-spreading": 0,
     "react/jsx-filename-extension": ["error", { "extensions": [".ts", ".tsx", ".js", ".jsx"] }],
     "import/prefer-default-export": 0,
     "import/no-default-export": 2,
