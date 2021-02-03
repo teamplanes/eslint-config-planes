@@ -5,6 +5,7 @@ module.exports = {
     "airbnb",
     "prettier",
     "prettier/react",
+    "plugin:react-hooks/recommended"
   ],
   "settings": {
     "import/resolver": {

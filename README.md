@@ -4,20 +4,30 @@
 
 ```sh
 npx install-peerdeps eslint-config-planes -Y -d
+
+# Optional - install prettier config
+yarn add -D prettier-config-planes
 ```
 
-Then create an `.eslintrc` file in the root with the following:
+Then create an `.eslintrc` or update your `package.json` with an
+`"eslintConfig"` key, and add the following:
 
-For React
+For React:
 ```json
-{
-  "extends": "eslint-config-planes"
-}
+// package.json
+"eslintConfig": {"extends": "eslint-config-planes"}
+"prettier": "prettier-config-planes"
+
+// .eslintrc
+{"extends": "eslint-config-planes"}
 ```
 
-For Node
+For Node:
 ```json
-{
-  "extends": "eslint-config-planes/node"
-}
+// package.json
+"eslintConfig": {"extends": "eslint-config-planes/node"}
+"prettier": "prettier-config-planes"
+
+// .eslintrc
+{"extends": "eslint-config-planes/node"}
 ```
