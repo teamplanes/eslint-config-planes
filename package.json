@@ -1,18 +1,17 @@
 {
   "name": "eslint-config-planes",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "description": "Eslint config for use across all Planes projects",
   "author": "Henry <henry@planes.studio>",
   "license": "MIT",
   "main": "react.js",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.17.0",
-    "@typescript-eslint/parser": "^4.17.0",
     "eslint": "7.2.0"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.2.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-config-prettier": "^8.1.0",
