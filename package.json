@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-planes",
-  "version": "1.11.0",
+  "version": "2.0.0",
   "description": "Eslint config for use across all Planes projects",
   "author": "Henry <henry@planes.studio>",
   "license": "MIT",
@@ -20,6 +20,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-unicorn": "^37.0.1",
     "prettier": "^2.2.1"
   }
 }
