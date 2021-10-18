@@ -3,8 +3,7 @@ module.exports = {
   "plugins": ["prettier", "react-hooks"],
   "extends": [
     "airbnb",
-    "prettier",
-    "prettier/react",
+    "prettier"
   ],
   "settings": {
     "import/resolver": {
@@ -19,6 +18,7 @@ module.exports = {
     "import/prefer-default-export": 0,
     "import/no-default-export": 2,
     "prettier/prettier": "error",
+    "arrow-body-style": "off",
     "react/destructuring-assignment": 0,
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",

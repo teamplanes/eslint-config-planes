@@ -5,8 +5,6 @@ module.exports = {
     "airbnb",
     "plugin:@typescript-eslint/recommended",
     "prettier",
-    "prettier/@typescript-eslint",
-    "prettier/react",
     "plugin:react-hooks/recommended"
   ],
   "settings": {
@@ -17,8 +15,16 @@ module.exports = {
     }
   },
   "rules": {
+    'unicorn/filename-case': [
+      'error',
+      {
+        case: 'kebabCase',
+      },
+    ],
     "react/jsx-props-no-spreading": 0,
     "react/jsx-filename-extension": ["error", { "extensions": [".ts", ".tsx", ".js", ".jsx"] }],
+    "react/jsx-handler-names": "error",
+    "react/boolean-prop-naming": "error",
     "import/prefer-default-export": 0,
     "import/no-default-export": 2,
     "prettier/prettier": "error",
@@ -27,6 +33,10 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": 0,
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    'import/extensions': 0
+    'import/extensions': 0,
+    "arrow-body-style": "off",
+    "react/prop-types": "off",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"]
   }
 }
