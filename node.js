@@ -14,6 +14,12 @@ module.exports = {
     }
   },
   "rules": {
+    'unicorn/filename-case': [
+      'error',
+      {
+        case: 'kebabCase',
+      },
+    ],
     "import/prefer-default-export": 0,
     "import/no-default-export": 2,
     "prettier/prettier": "error",
