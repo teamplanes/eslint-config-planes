@@ -1,6 +1,6 @@
 module.exports = {
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "prettier", "react-hooks"],
+  "plugins": ["@typescript-eslint", "prettier", "react-hooks", "unicorn"],
   "extends": [
     "airbnb",
     "plugin:@typescript-eslint/recommended",
@@ -37,6 +37,17 @@ module.exports = {
     "arrow-body-style": "off",
     "react/prop-types": "off",
     "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": ["error"]
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "@typescript-eslint/ban-types": [
+      "error",
+      {
+        "types": {
+          "{}": {
+            "message": "Use Record instead",
+            "fixWith": "Record<string, any>"
+          }
+        }
+      }
+    ]
   }
 }
